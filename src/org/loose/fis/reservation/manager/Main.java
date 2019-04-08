@@ -6,6 +6,27 @@ import org.loose.fis.reservation.manager.model.User;
 import java.util.Arrays;
 import java.util.List;
 
+  /**
+* This is the main class of the reservation manager
+* Currently this class contains some dummy users and some dummy reservations.
+* Finally, after creating them, the main method of this class prints them out.
+*
+* Feel free to run the main method at any time. :)
+*/
+
+
+            /**
+* @param args not used
+*
+* this method starts the application :)
+*/
+
+
+//creating the users
+//creating reservations
+//adding all the reservations to a list
+//printing out the reservations
+
 public class Main {
     public static void main(String[] args) {
         User user1 = new User("John", "Doe", 43);
@@ -26,3 +47,4 @@ public class Main {
         reservations.forEach(System.out::println);
     }
 }
+  
